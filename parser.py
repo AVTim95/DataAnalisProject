@@ -1,4 +1,4 @@
-
+# Мы использовали библиотеку selenium и парсили данные с сайта raw.githubusercontent.com
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
