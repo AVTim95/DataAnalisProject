@@ -10,7 +10,7 @@ caps["pageLoadStrategy"] = "normal"
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")
 driver = webdriver.Chrome(options=options, desired_capabilities=caps)
-
+# Метод driver.get перенаправляет к странице URL, поданной в параметре
 driver.get('https://raw.githubusercontent.com/Yorko/mlcourse.ai/main/data/Rail_Insurance_Claims.csv')
 time.sleep(1)
 
